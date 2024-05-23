@@ -3,7 +3,8 @@
     "description": "Yii PHP Framework Version 2 - Development Package",
     "keywords": [
         "yii2",
-        "framework"
+        "framework",
+        "flttgo"
     ],
     "homepage": "http://www.yiiframework.com/",
     "type": "yii2-extension",
@@ -65,7 +66,10 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "replace": {
-        "yiisoft/yii2": "self.version"
+        "yiisoft/yii2": "self.version",
+        "yiisoft/yii2-gii": "self.version",
+        "bower-asset/yii2-pjax": "self.version",
+        "bower-asset/jquery": "self.version"
     },
     "require": {
         "php": ">=5.4.0",
